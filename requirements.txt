@@ -1,0 +1,14 @@
+# Jupyter Notebook environment with R kernel
+jupyter
+r-irkernel  # Jupyter kernel for running R code
+
+# API clients
+# If any R libraries exist for these clients, you would typically add those in an R-specific file or within the notebooks.
+# For example, if using reticulate or similar, you may add Python packages directly here:
+openai  # Official OpenAI Python client (if used alongside R)
+
+# Additional utilities
+python-dotenv  # for managing environment variables in any Python code sections
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_R_notebook.git#egg=llm_R_notebook
